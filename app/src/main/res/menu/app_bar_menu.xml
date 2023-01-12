@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/configure"
+        android:title="configure" />
+    <item
+        android:id="@+id/reset"
+        android:title="reset views" />
+    <item
+        android:id="@+id/reset_all"
+        android:title="reset all views" />
+    <item
+        android:id="@+id/submit"
+        android:title="submit" />
+</menu>

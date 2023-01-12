@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Row 1 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#800080"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UPS Channel I"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:padding="10dp"
+                android:text="O/P Voltage (V)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups1_op_v"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 3 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFA500"
+                android:padding="10dp"
+                android:text="O/P Current (A)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups1_op_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 4 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:padding="10dp"
+                android:text="Battery Voltage (V)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups1_batt_v"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 5 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFA500"
+                android:padding="10dp"
+                android:text="Battery Current (A)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups1_batt_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 6 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#800080"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UPS Channel II"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <!-- Row 7 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:padding="10dp"
+                android:text="O/P Voltage (V)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups2_op_v"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 8 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFA500"
+                android:padding="10dp"
+                android:text="O/P Current (A)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups2_op_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 9 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:padding="10dp"
+                android:text="Battery Voltage (V)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups2_batt_v"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 10 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFA500"
+                android:padding="10dp"
+                android:text="Battery Current (A)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups2_batt_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 11 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:padding="10dp"
+                android:text="Bypass Voltage (V)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups_byp_v"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 12 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFA500"
+                android:padding="10dp"
+                android:text="Room temp (degC)"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups_room_temp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 13 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:padding="10dp"
+                android:text="Remarks"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/ups_remarks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shape_rectangle"
+                android:padding="10dp" />
+        </TableRow>
+
+        <!-- Row 14 -->
+        <TableRow>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#800080"
+                android:gravity="center"
+                android:onClick="saveData"
+                android:padding="2dp"
+                android:text="Save"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
